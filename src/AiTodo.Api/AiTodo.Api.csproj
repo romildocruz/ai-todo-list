@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <UserSecretsId>733b99f3-fdaf-4e49-a997-c4c351c3526b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" />
+    <PackageReference Include="FastEndpoints.Swagger" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AiTodo.Application\AiTodo.Application.csproj" />
+    <!-- Infrastructure is referenced only for composition (DI) in Program.cs. -->
+    <ProjectReference Include="..\AiTodo.Infrastructure\AiTodo.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

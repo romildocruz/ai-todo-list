@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <!-- Only the abstractions (ICommand / ICommandHandler / IEvent) of the FastEndpoints command bus. -->
+    <PackageReference Include="FastEndpoints.Messaging.Core" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AiTodo.Domain\AiTodo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

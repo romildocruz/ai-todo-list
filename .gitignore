@@ -1,0 +1,23 @@
+# .NET
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+coverage/
+
+# Local configuration and secrets
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+web/dist/
+
+# Editors / OS
+.idea/
+Thumbs.db

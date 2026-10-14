@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Domain has ZERO package dependencies (no MongoDB.Driver, no BSON attributes). -->
+
+</Project>

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Test doubles shared by the test projects (fake clock, in-memory repositories). Not a test project. -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AiTodo.Application\AiTodo.Application.csproj" />
+  </ItemGroup>
+
+</Project>
